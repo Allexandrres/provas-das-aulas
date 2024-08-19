@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prova aula 7</title>
+</head>
+<body>
+    <script src="script.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+    <div class="fone">
+        <h1>Calculadora de Gorjetas</h1>
+        <label for="totalConta">Total da Conta:</label>
+        <input type="number" id="totalConta">
+        <label for="qualidadeServico">Qualidade do Serviço:</label>
+        <select id="qualidadeServico">
+            <option value="0.2">Bom</option>
+            <option value="0.15">Regular</option>
+            <option value="0.1">Ruim</option>
+        </select>
+        <button onclick="calcularGorjeta()">Calcular Gorjeta</button>
+        <div id="resultado"></div>
+    </div>
+</body>
+</html>
